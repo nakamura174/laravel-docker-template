@@ -7,7 +7,6 @@ use App\Todo;
 
 class TodoController extends Controller
 {
-    //
     private $todo;
 
     public function __construct(Todo $todo)
